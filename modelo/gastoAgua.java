@@ -28,7 +28,7 @@ public class gastoAgua
 
         if (200 < gasto)
         {
-            cuotaAPagar = ((gasto - 50) * 2000) + ((gasto - 200) * 3000);
+            cuotaAPagar = (150 * 2000) + ((gasto - 200) * 3000);
             JOptionPane.showMessageDialog(null, "su cuota a pagar es " + (cuotaAPagar + cuotaFija));
         }
 
